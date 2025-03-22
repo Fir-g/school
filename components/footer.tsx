@@ -111,7 +111,7 @@ export function Footer() {
               ].map(([Icon, url], index) => (
                 <Link
                   key={index}
-                  href={url}
+                  href={String(url)}
                   className="text-muted-foreground hover:text-foreground transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
