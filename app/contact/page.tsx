@@ -16,6 +16,8 @@ import {
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import emailjs from "@emailjs/browser";
 import { toast } from "sonner";
+import nodemailer from 'nodemailer';
+
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
