@@ -11,29 +11,6 @@ export function Footer() {
   const [email, setEmail] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  // const handleSubscribe = async (e: React.FormEvent) => {
-  //   e.preventDefault();
-  //   setIsLoading(true);
-
-  //   try {
-  //     const response = await fetch('/api/newsletter', {
-  //       method: 'POST',
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //       },
-  //       body: JSON.stringify({ email }),
-  //     });
-
-  //     if (!response.ok) throw new Error('Subscription failed');
-
-  //     toast.success('Thank you for subscribing to our newsletter!');
-  //     setEmail("");
-  //   } catch (error) {
-  //     toast.error('Failed to subscribe. Please try again later.');
-  //   } finally {
-  //     setIsLoading(false);
-  //   }
-  // };
 
   return (
     <footer className="bg-card border-t">
