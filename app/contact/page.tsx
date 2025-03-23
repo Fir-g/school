@@ -38,7 +38,7 @@ export default function ContactPage() {
         "skyline_email", // Your EmailJS Service ID
         "template_angvlmv", // Your Template ID
         {
-          to_email: "doctoraraham@gmail.com",
+          to_email: "skylinescholarsschool@gmail.com",
           from_name: formData.name,
           from_email: formData.email,
           phone: formData.phone,
@@ -140,8 +140,8 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold">Address</h3>
                       <p className="text-muted-foreground">
-                        123 Education Lane<br />
-                        Academic City, ST 12345
+                       Puranpatti, Chunar<br />
+                      Mirzapur, Uttar Pradesh
                       </p>
                     </div>
                   </div>
@@ -149,7 +149,7 @@ export default function ContactPage() {
                     <Phone className="h-5 w-5 text-primary mt-1" />
                     <div>
                       <h3 className="font-semibold">Phone</h3>
-                      <p className="text-muted-foreground">(555) 123-4567</p>
+                      <p className="text-muted-foreground">+91 7068301206</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -177,15 +177,15 @@ export default function ContactPage() {
               <Card className="p-6">
                 <h2 className="text-2xl font-bold mb-6">Location</h2>
                 <div className="aspect-video rounded-lg overflow-hidden">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30596073366!2d-74.25987368715491!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1649799099072!5m2!1sen!2sus"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                  ></iframe>
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3221.106826911809!2d82.8198611!3d25.1559167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDA5JzIxLjMiTiA4MsKwNDknMTEuNSJF!5e1!3m2!1sen!2sin!4v1742762868562!5m2!1sen!2sin" 
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
                 </div>
               </Card>
             </div>

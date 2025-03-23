@@ -22,15 +22,15 @@ export function Footer() {
             <div className="space-y-3 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                <span>123 Education Lane, Academic City, ST 12345</span>
+                <span>Puranpatti,Chunar<br></br>Mirzapur,Uttar Pradesh</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                <span>(555) 123-4567</span>
+                <span> +91 7068301206 </span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <span>info@skylinescholars.edu</span>
+                <span>skylinescholarsschool@gmail.com</span>
               </div>
             </div>
           </div>
@@ -81,8 +81,8 @@ export function Footer() {
             <h3 className="font-semibold text-lg mb-4">Connect With Us</h3>
             <div className="flex gap-4 mb-6">
               {[
-                [Facebook, "https://facebook.com/skylinescholars"],
-                [Instagram, "https://instagram.com/skylinescholars"],
+                [Facebook, "https://www.facebook.com/skylinescholarsschool"],
+                [Instagram, "https://www.instagram.com/skylinescholarsschool"],
                 [Twitter, "https://twitter.com/skylinescholars"],
                 [Youtube, "https://youtube.com/skylinescholars"],
               ].map(([Icon, url], index) => (
