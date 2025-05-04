@@ -15,7 +15,7 @@ export default function HistoryPage() {
       }}>
         <div className="text-center text-white">
           <h1 className="text-4xl font-bold mb-4">Our History</h1>
-          <p className="text-xl">A Legacy of Excellence Since 1995</p>
+          <p className="text-xl">A Legacy of Excellence Since 2025</p>
         </div>
       </section>
 
@@ -25,25 +25,25 @@ export default function HistoryPage() {
           <div className="space-y-12">
             {[
               {
-                year: "1995",
+                year: "2025",
                 title: "The Foundation",
                 description: "Skyline Scholars was established with a vision to provide exceptional education. Starting with just 50 students and 10 dedicated teachers, we began our journey in a modest building.",
                 image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               },
               {
-                year: "2000",
+                year: "2025",
                 title: "Expansion & Growth",
                 description: "The school expanded its facilities to include state-of-the-art science laboratories, a comprehensive library, and modern sports facilities. Student enrollment grew to 300.",
                 image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               },
               {
-                year: "2010",
+                year: "2025",
                 title: "Academic Excellence",
                 description: "Achieved national recognition for academic excellence. Introduced advanced programs in STEM and performing arts. Student body reached 700.",
                 image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               },
               {
-                year: "2020",
+                year: "2025",
                 title: "Digital Innovation",
                 description: "Embraced digital transformation with modern learning technologies. Established virtual learning capabilities and expanded global partnerships.",
                 image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
@@ -79,19 +79,19 @@ export default function HistoryPage() {
               {
                 icon: Trophy,
                 title: "Academic Excellence",
-                stats: "100+",
+                stats: "00",
                 description: "National Merit Scholars"
               },
               {
                 icon: Users,
                 title: "Alumni Network",
-                stats: "5000+",
+                stats: "00",
                 description: "Successful Graduates"
               },
               {
                 icon: Star,
                 title: "Recognition",
-                stats: "50+",
+                stats: "00",
                 description: "National Awards"
               }
             ].map((achievement, index) => (
